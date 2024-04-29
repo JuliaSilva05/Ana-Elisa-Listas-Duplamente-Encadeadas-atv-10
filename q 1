@@ -34,7 +34,6 @@ void exibir(LDE lista) {
     printf("%d, ", aux->info);
     aux = aux->prox;
   }
-  printf("\n%d\n", lista.qtd);
   free(aux);
 }
 
